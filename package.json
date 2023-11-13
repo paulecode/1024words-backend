@@ -1,0 +1,8 @@
+{
+  "name": "1024words-backend",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "repository": "https://github.com/paulecode/1024words-backend.git",
+  "author": "paulecode <paul.ebert@code.berlin>",
+  "license": "MIT"
+}
