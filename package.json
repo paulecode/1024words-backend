@@ -6,7 +6,8 @@
   "author": "paulecode <paul.ebert@code.berlin>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "pino": "^8.16.1"
   },
   "devDependencies": {
     "@types/node": "^20.9.0",
