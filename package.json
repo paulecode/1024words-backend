@@ -4,5 +4,19 @@
   "main": "src/app.ts",
   "repository": "https://github.com/paulecode/1024words-backend.git",
   "author": "paulecode <paul.ebert@code.berlin>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/app.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pino": "^8.16.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.1",
+    "pino-pretty": "^10.2.3",
+    "prettier": "^3.1.0"
+  }
 }
