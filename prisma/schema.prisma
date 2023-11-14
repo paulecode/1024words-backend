@@ -24,4 +24,6 @@ model BaseWord {
   baseCategoryID Int          @map("base_category_id")
   baseCategory   BaseCategory @relation(fields: [baseCategoryID], references: [id])
   baseWord       String       @map("base_word")
+
+  @@map("base_words")
 }
